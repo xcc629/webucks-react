@@ -1,20 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
-li {
-  list-style: none;
-}
+@import "../Login/Login.scss";
 
 a {
   display: block;
   color: gray;
   text-decoration: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
 }
 
 /* 전체스타일 끝 */

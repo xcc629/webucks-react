@@ -7,7 +7,6 @@ function Login() {
   const goToList = () => {
     navigate("/list");
   };
-
   return (
     <section className="login-box">
       <figure className="logo">
