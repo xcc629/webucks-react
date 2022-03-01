@@ -4,9 +4,8 @@ function Detail() {
   return (
     <div>
       <header>
-        <a href="">
-          <img src="image/logo.png" alt="logo" />
-        </a>
+        <img src="image/logo.png" alt="logo" />
+
         <nav>
           <ul className="nav-bar-list">
             <li>COFFEE</li>

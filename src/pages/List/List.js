@@ -87,9 +87,8 @@ function List() {
       </section>
       <section className="coffee-menu-section">
         <article className="coffee-title">
-          <a href="">
-            <h3>브루드 커피</h3>
-          </a>
+          <h3>브루드 커피</h3>
+
           <i className="fa-solid fa-mug-hot"></i>
           <span className="option-explan">
             디카페인 에스프레소 샷 추가 가능 (일부 음료 제외)

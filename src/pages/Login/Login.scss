@@ -39,12 +39,7 @@ $headerColor: #f6f5f0;
         width: 75%;
         height: 55%;
 
-        * {
-          margin-bottom: 5%;
-          border: none;
-          height: 15%;
-        }
-        .input {
+        input {
           padding: 20px 5px;
           border: 2px solid #e0e0e0;
           border-radius: 5px;
@@ -61,7 +56,16 @@ $headerColor: #f6f5f0;
           font-size: 15px;
           opacity: 50%;
         }
+
+        * {
+          margin-bottom: 5%;
+          border: none;
+          height: 15%;
+        }
       }
+    }
+    .lost-password-box {
+      margin: 50px 0 60px 0;
     }
   }
 }
