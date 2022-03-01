@@ -19,35 +19,26 @@ function Detail() {
       <section>
         <h2>콜드 브루</h2>
         <ul className="link-path-list">
-          <li>홈</li>
-          <li>
-            <i className="fa-solid fa-angle-right"></i>
-          </li>
-          <li>MENU</li>
-          <li>
-            <i className="fa-solid fa-angle-right"></i>
-          </li>
-          <li>음료</li>
-          <li>
-            <i className="fa-solid fa-angle-right"></i>
-          </li>
-          <li>콜드 브루</li>
-          <li>
-            <i className="fa-solid fa-angle-right"></i>
-          </li>
+          <li>홈 /</li>
+
+          <li>MENU /</li>
+
+          <li>음료 /</li>
+
+          <li>콜드 브루 /</li>
+
           <li>나이트로 바닐라 크림</li>
         </ul>
 
-        <article className="menu-detail-section">
+        <article className="menu-detail-article">
           <figure>
-            Name
             <img src="image/coffeeimg/1.jpg" alt="나이트로 바닐라 크림" />
           </figure>
           <div className="right-side">
             <table className="menu">
-              <thead>
-                <tr className="menu-name">
-                  <th>
+              <thead className="menu-name">
+                <tr>
+                  <th colSpan="3">
                     <h3>나이트로 바닐라 크림</h3>
                     <span>Nitro Vanilla Cream</span>
                   </th>

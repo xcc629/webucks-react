@@ -29,57 +29,69 @@ function List() {
         <figure>
           <ul className="coffee-menu-list">
             <li>
-              <Link to="/detail">
+              <Link to="/detail" className="link">
                 <img src="image/coffeeimg/1.jpg" alt="나이트로 바닐라 크림" />
               </Link>
               <p>나이트로 바닐라 크림</p>
             </li>
             <li>
-              <img src="image/coffeeimg/2.jpg" alt="나이트로 콜드 브루" />
-
+              <Link to="/" className="link">
+                <img src="image/coffeeimg/2.jpg" alt="나이트로 콜드 브루" />
+              </Link>
               <p>나이트로 콜드 브루</p>
             </li>
             <li>
-              <img src="image/coffeeimg/3.jpg" alt="돌체 콜드 브루" />
-
+              <Link to="/" className="link">
+                <img src="image/coffeeimg/3.jpg" alt="돌체 콜드 브루" />
+              </Link>
               <p>돌체 콜드 브루</p>
             </li>
             <li>
-              <img src="image/coffeeimg/4.jpg" alt="바닐라 크림 콜드 브루" />
-
+              <Link to="/">
+                <img src="image/coffeeimg/4.jpg" alt="바닐라 크림 콜드 브루" />
+              </Link>
               <p>바닐라 크림 콜드 브루</p>
             </li>
             <li>
-              <img src="image/coffeeimg/5.jpg" alt="벨벳 다크 모카 나이트로" />
-
+              <Link to="/" className="link">
+                <img
+                  src="image/coffeeimg/5.jpg"
+                  alt="벨벳 다크 모카 나이트로"
+                />
+              </Link>
               <p>벨벳 다크 모카 나이트로</p>
             </li>
             <li>
-              <img
-                src="image/coffeeimg/6.jpg"
-                alt="시그니처 더 블랙 콜드 브루"
-              />
-
+              <Link to="/" className="link">
+                <img
+                  src="image/coffeeimg/6.jpg"
+                  alt="시그니처 더 블랙 콜드 브루"
+                />
+              </Link>
               <p>시그니처 더 블랙 콜드 브루</p>
             </li>
             <li>
-              <img src="image/coffeeimg/7.jpg" alt="제주 비자림 콜드 브루" />
-
+              <Link to="/" className="link">
+                <img src="image/coffeeimg/7.jpg" alt="제주 비자림 콜드 브루" />
+              </Link>
               <p>제주 비자림 콜드 브루</p>
             </li>
             <li>
-              <img src="image/coffeeimg/8.jpg" alt="콜드 브루" />
-
+              <Link to="/" className="link">
+                <img src="image/coffeeimg/8.jpg" alt="콜드 브루" />
+              </Link>
               <p>콜드 브루</p>
             </li>
             <li>
-              <img src="image/coffeeimg/9.jpg" alt="콜드 브루 몰트" />
-
+              <Link to="/" className="link">
+                <img src="image/coffeeimg/9.jpg" alt="콜드 브루 몰트" />
+              </Link>
               <p>콜드 브루 몰트</p>
             </li>
             <li>
-              <img src="image/coffeeimg/10.jpg" alt="콜드 브루 오트 라떼" />
-
+              <Link to="/" className="link">
+                <img src="image/coffeeimg/10.jpg" alt="콜드 브루 오트 라떼" />
+              </Link>
               <p>콜드 브루 오트 라떼</p>
             </li>
           </ul>
@@ -97,13 +109,15 @@ function List() {
         <figure>
           <ul className="coffee-menu-list">
             <li>
-              <img src="image/coffeeimg/11.jpg" alt="아이스 커피" />
-
+              <Link to="/" className="link">
+                <img src="image/coffeeimg/11.jpg" alt="아이스 커피" />
+              </Link>
               <p>아이스 커피</p>
             </li>
             <li>
-              <img src="image/coffeeimg/12.jpg" alt="오늘의 커피" />
-
+              <Link to="/" className="link">
+                <img src="image/coffeeimg/12.jpg" alt="오늘의 커피" />
+              </Link>
               <p>오늘의 커피</p>
             </li>
           </ul>
